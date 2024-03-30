@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet"  type="text/css" href="styles.css">
+    <title>Contact</title>
+    <!-- Add any necessary CSS or external stylesheets here -->
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="nav__content">
+        <div class="logo"><a href="#">Sapna</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check"/>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+</nav>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="contact__container">
+        <form action="submit.php" method="POST">
+            <label for="name">Sapna Sen</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email: sapna021sen@gmail.com</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit" id="send-message-btn">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Icons for GitHub, Instagram, and LinkedIn -->
+    <div class="social-icons">
+        <a href="https://github.com/sapnasen21" target="_blank"><i class="ri-github-line"></i></a>
+        <a href="https://instagram.com/sap.natech88" target="_blank"><i class="ri-instagram-line"></i></a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="ri-linkedin-line"></i></a>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
